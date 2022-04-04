@@ -575,7 +575,7 @@ export function successMessage(str, emoji = "<:zep_check:906897402101891093>") {
   return emoji ? `${emoji} ${str}` : str;
 }
 
-export function errorMessage(str, emoji = "<:zep_red_x:906897402177417258") {
+export function errorMessage(str, emoji = "<:zep_red_x:906897402177417258>") {
   return emoji ? `${emoji} ${str}` : str;
 }
 
